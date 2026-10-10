@@ -1,0 +1,8 @@
+
+2026-10-09 09:00:01 INFO Login successful user=alice ip=192.0.2.10
+2026-10-09 09:01:10 WARN Login failed user=admin ip=198.51.100.23
+2026-10-09 09:01:15 WARN Login failed user=admin ip=198.51.100.23
+2026-10-09 09:01:20 WARN Login failed user=admin ip=198.51.100.23
+2026-10-09 09:01:25 WARN Login failed user=admin ip=198.51.100.23
+2026-10-09 09:01:30 WARN Login failed user=admin ip=198.51.100.23
+2026-10-09 09:02:00 INFO Login successful user=bob ip=192.0.2.15
