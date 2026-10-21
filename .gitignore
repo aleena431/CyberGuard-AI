@@ -33,3 +33,10 @@ reports/*
 # Model files and caches
 models/
 .cache/
+
+# Private backups and security evidence
+backup/
+data/evidence/
+
+# Local environment and generated artifacts
+.env

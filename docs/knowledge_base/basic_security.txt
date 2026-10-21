@@ -1,0 +1,36 @@
+# Cybersecurity Knowledge Base
+
+## Brute-Force Login Attacks
+
+A brute-force login attack occurs when an attacker repeatedly attempts to log in using different passwords. Many failed login attempts from a single IP address may indicate suspicious activity.
+
+Detection guidance:
+- Count failed login attempts grouped by source IP address.
+- Investigate repeated failures within a short time window.
+- Check whether the source IP has attempted to access multiple accounts.
+- Consider rate limiting, multi-factor authentication, and temporary account protection.
+- Do not automatically block an IP address based on one signal alone.
+
+## Incident Severity
+
+**Low:** An event with limited evidence of risk and no confirmed impact.
+
+**Medium:** Suspicious activity that needs investigation but has no confirmed serious impact.
+
+**High:** Strong evidence of a security threat, such as repeated suspicious authentication attempts.
+
+**Critical:** A confirmed or highly likely severe incident requiring urgent response, such as an active compromise of a critical system.
+
+Severity should be assigned using evidence, business impact, and the organization's incident-response policy.
+
+## Security Investigation Guidance
+
+When investigating an alert, record:
+- What happened.
+- When it happened.
+- The source IP address, if available.
+- The affected account or system, if known.
+- Supporting log evidence.
+- The assigned severity and recommended next steps.
+
+Distinguish confirmed facts from hypotheses. A source IP associated with failed logins is not, by itself, proof that a system has been compromised.
